@@ -9,3 +9,4 @@ This repository contains all the lab assignments and the final project for the O
 
 ## 📂 Repository Structure
 * `Lab 1/` - Programs for Lab 1
+* `Lab 2/` - C++ Programming: Classes & Objects
