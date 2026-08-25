@@ -24,6 +24,7 @@
 | **Lab 2** | Classes & Objects | Encapsulation, data members & member functions |
 | **Lab 3** | Dynamic Memory Allocation | Pointers, constructors/destructors, `new` & `delete` |
 | **Lab 4** | Friend Function & Class | Accessing private members using friendship concepts |
+| **Lab 5** | Function Overloading | Polymorphism using parameter types, order & counts |
 
 ---
 
