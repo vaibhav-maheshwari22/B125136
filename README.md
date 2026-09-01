@@ -25,6 +25,7 @@
 | **Lab 3** | Dynamic Memory Allocation | Pointers, constructors/destructors, `new` & `delete` |
 | **Lab 4** | Friend Function & Class | Accessing private members using friendship concepts |
 | **Lab 5** | Function Overloading | Polymorphism using parameter types, order & counts |
+| **Lab 6** | C++ Pointers | Pointer arithmetic, dereferencing, dynamic allocation & traversal |
 
 ---
 
