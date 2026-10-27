@@ -43,6 +43,7 @@ B125136/
 ├── 📂 Lab 5/    # Compile-time Polymorphism: Function Overloading
 ├── 📂 Lab 6/    # Operator Overloading & Pointer Arithmetic
 ├── 📂 Lab 7/    # Inheritance Concepts (Multilevel, Multiple, Virtual)
+├── 📂 Lab 8/    # Run-Time Polymorphism & Function Overriding (Virtual Functions)-
 └── 📄 README.md # Project Documentation & Reference Manual
 ```
 
@@ -198,6 +199,26 @@ B125136/
 | **Q10**| **Diamond Problem** | Virtual inheritance application solving the diamond inheritance problem by isolating a single base copy. |
 
 </details>
+
+<details>
+<summary><b>📂 Lab 8: Function Overriding [10 Problems]</b></summary>
+
+<br>
+
+| # | Problem Title | Focus Area / Description |
+| :---: | :--- | :--- |
+| **Q1** | **Game Character Battle** | Overriding base character attack methods with subclass-specific damage scaling. |
+| **Q2** | **Smart Parking Fee Calculator** | Tiered parking fees for two-wheelers and four-wheelers with conditional long-stay discounts. |
+| **Q3** | **File Compression Simulator** | Simulating file size reduction ratios for text and image compressors. |
+| **Q4** | **Food Delivery Time Estimator** | Estimating delivery times for bike and drone modes accounting for traffic and logistics. |
+| **Q5** | **Smart Irrigation Controller** | Calculating water supply requirements based on soil moisture levels. |
+| **Q6** | **Cybersecurity Threat Scanner** | Basic vs. advanced vulnerability scans with threat elimination simulations. |
+| **Q7** | **Cricket Target Calculator** | Calculating target scores for T20 and ODI match formats using run margins. |
+| **Q8** | **Cloud Resource Cost Calculator** | Computing cloud computing costs with tiered volume-based discounts. |
+| **Q9** | **Robot Navigation System** | Demonstrating runtime polymorphism using base-class pointers for wheeled and tracked robots. |
+| **Q10**| **AI Recommendation Engine** | Weighted scoring algorithms for personalized vs. trending recommendation models. |
+
+</details>
 ---
 
 ## 💻 Key OOP Paradigms Covered
@@ -205,7 +226,8 @@ B125136/
 - **Encapsulation & Abstraction**: Strict private visibility, public interfaces, accessor/mutator methods.
 - **Memory Safety & Resource Management**: RAII principles, heap allocation via `new`/`delete`, avoidance of dangling pointers.
 - **Polymorphism**:
-  - *Compile-Time*: Function Overloading[cite: 2], Operator Overloading (Binary, Unary, Comparison).
+  - *Compile-Time*: Function Overloading, Operator Overloading (Binary, Unary, Comparison).
+  - *Run-Time*: Function Overriding using virtual functions and base-class pointers.
 - **Friend Access Control**: Fine-grained access privileges via `friend` functions & classes without breaking abstraction boundaries.
 
 ---
