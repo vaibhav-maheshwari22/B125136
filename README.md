@@ -36,12 +36,13 @@ It strictly adheres to modern C++ paradigms, memory safety, clean modular code d
 ```text
 B125136/
 │
-├── 📂 Lab 1/    # Revision: Structures in C/C++[cite: 6]
-├── 📂 Lab 2/    # Fundamentals of Classes, Objects & Data Hiding[cite: 4]
-├── 📂 Lab 3/    # Dynamic Memory Allocation (DMA using new/delete)[cite: 3]
-├── 📂 Lab 4/    # Encapsulation Access Control via Friend Functions & Classes[cite: 5]
-├── 📂 Lab 5/    # Compile-time Polymorphism: Function Overloading[cite: 2]
-├── 📂 Lab 6/    # Operator Overloading & Pointer Arithmetic[cite: 1, 7]
+├── 📂 Lab 1/    # Revision: Structures in C/C++
+├── 📂 Lab 2/    # Fundamentals of Classes, Objects & Data Hiding
+├── 📂 Lab 3/    # Dynamic Memory Allocation (DMA using new/delete)
+├── 📂 Lab 4/    # Encapsulation Access Control via Friend Functions & Classes
+├── 📂 Lab 5/    # Compile-time Polymorphism: Function Overloading
+├── 📂 Lab 6/    # Operator Overloading & Pointer Arithmetic
+├── 📂 Lab 7/    # Inheritance Concepts (Multilevel, Multiple, Virtual)
 └── 📄 README.md # Project Documentation & Reference Manual
 ```
 
@@ -58,16 +59,16 @@ B125136/
 
 | # | Problem Title | Focus Area / Description |
 | :---: | :--- | :--- |
-| **Q1** | **Student Details** | Single structure instantiation, IO operations[cite: 6]. |
-| **Q2** | **Employee Record** | Array of structures for 3 employee records[cite: 6]. |
-| **Q3** | **Book Information** | Struct definition for title, author, price formatting[cite: 6]. |
-| **Q4** | **Product Details** | Quantity vs Price total calculation[cite: 6]. |
-| **Q5** | **Rectangle** | Geometric area and perimeter computation[cite: 6]. |
-| **Q6** | **Distance** | Imperial distance addition (Feet & Inches)[cite: 6]. |
-| **Q7** | **Student Marks** | Multi-subject grade, total, and average analysis[cite: 6]. |
-| **Q8** | **Largest Salary** | Array search algorithm for maximum employee salary[cite: 6]. |
-| **Q9** | **Array of Structures** | Conditional record filtering (CGPA ≥ 8.0)[cite: 6]. |
-| **Q10**| **Nested Structure** | Struct inside struct (Date of Birth nested in Student)[cite: 6]. |
+| **Q1** | **Student Details** | Single structure instantiation, IO operations. |
+| **Q2** | **Employee Record** | Array of structures for 3 employee records. |
+| **Q3** | **Book Information** | Struct definition for title, author, price formatting. |
+| **Q4** | **Product Details** | Quantity vs Price total calculation. |
+| **Q5** | **Rectangle** | Geometric area and perimeter computation. |
+| **Q6** | **Distance** | Imperial distance addition (Feet & Inches). |
+| **Q7** | **Student Marks** | Multi-subject grade, total, and average analysis. |
+| **Q8** | **Largest Salary** | Array search algorithm for maximum employee salary. |
+| **Q9** | **Array of Structures** | Conditional record filtering (CGPA ≥ 8.0). |
+| **Q10**| **Nested Structure** | Struct inside struct (Date of Birth nested in Student). |
 
 </details>
 
@@ -78,16 +79,16 @@ B125136/
 
 | # | Problem Title | Focus Area / Description |
 | :---: | :--- | :--- |
-| **Q1** | **Student Information System** | Data abstraction using private members and public methods[cite: 4]. |
-| **Q2** | **Rectangle Calculator** | Member functions for area and perimeter calculations[cite: 4]. |
-| **Q3** | **Simple Calculator** | Modular arithmetic operations with zero-division safety[cite: 4]. |
-| **Q4** | **Bank Account Management** | Encapsulated balance mutation (Deposit/Withdrawal validation)[cite: 4]. |
-| **Q5** | **Employee Salary Calculator** | Allowance computations (HRA 20%, DA 10%, Gross Salary)[cite: 4]. |
-| **Q6** | **Distance Addition** | Imperial unit normalization (Inches to Feet rollover)[cite: 4]. |
-| **Q7** | **Product Inventory Management** | Stock decrement validation and total inventory evaluation[cite: 4]. |
-| **Q8** | **Library Book System** | Issue tracking and conditional late fine processing[cite: 4]. |
-| **Q9** | **Student Result Processing** | Multi-subject percentage evaluation & letter grading (A-F)[cite: 4]. |
-| **Q10**| **Electricity Bill Generator** | Tiered slab-rate bill calculation[cite: 4]. |
+| **Q1** | **Student Information System** | Data abstraction using private members and public methods. |
+| **Q2** | **Rectangle Calculator** | Member functions for area and perimeter calculations. |
+| **Q3** | **Simple Calculator** | Modular arithmetic operations with zero-division safety. |
+| **Q4** | **Bank Account Management** | Encapsulated balance mutation (Deposit/Withdrawal validation). |
+| **Q5** | **Employee Salary Calculator** | Allowance computations (HRA 20%, DA 10%, Gross Salary). |
+| **Q6** | **Distance Addition** | Imperial unit normalization (Inches to Feet rollover). |
+| **Q7** | **Product Inventory Management** | Stock decrement validation and total inventory evaluatio. |
+| **Q8** | **Library Book System** | Issue tracking and conditional late fine processing. |
+| **Q9** | **Student Result Processing** | Multi-subject percentage evaluation & letter grading (A-F). |
+| **Q10**| **Electricity Bill Generator** | Tiered slab-rate bill calculation. |
 
 </details>
 
@@ -98,16 +99,16 @@ B125136/
 
 | # | Problem Title | Focus Area / Description |
 | :---: | :--- | :--- |
-| **Q1** | **Dynamic Integer Allocation** | Heap allocation using `new` and `delete` operators[cite: 3]. |
-| **Q2** | **Dynamic Array of Integers** | Runtime array sizing (`new int[n]`) and cleanup (`delete[]`)[cite: 3]. |
-| **Q3** | **Find the Largest Element** | Dynamic array traversal using pointers[cite: 3]. |
-| **Q4** | **Dynamic Array and Average** | Heap float array allocation for statistical mean[cite: 3]. |
-| **Q5** | **Dynamic Object Creation** | Instantiating class objects via heap memory (`->` operator)[cite: 3]. |
+| **Q1** | **Dynamic Integer Allocation** | Heap allocation using `new` and `delete` operators. |
+| **Q2** | **Dynamic Array of Integers** | Runtime array sizing (`new int[n]`) and cleanup (`delete[]`). |
+| **Q3** | **Find the Largest Element** | Dynamic array traversal using pointer. |
+| **Q4** | **Dynamic Array and Average** | Heap float array allocation for statistical mea. |
+| **Q5** | **Dynamic Object Creation** | Instantiating class objects via heap memory (`->` operator). |
 | **Q6** | **Array of Dynamic Objects** | Heap-allocated object array for `Employee` records[cite: 3]. |
-| **Q7** | **Dynamic Matrix** | 2D dynamic array via pointer-to-pointer (`int**`)[cite: 3]. |
-| **Q8** | **Dynamic Student Marks System**| Class encapsulating a dynamically allocated array for subject marks[cite: 3]. |
-| **Q9** | **Dynamic Shopping Cart** | Runtime product collection management[cite: 3]. |
-| **Q10**| **Dynamic Salary Analysis** | Heap array member allocation for monthly earnings analysis[cite: 3]. |
+| **Q7** | **Dynamic Matrix** | 2D dynamic array via pointer-to-pointer (`int**`). |
+| **Q8** | **Dynamic Student Marks System**| Class encapsulating a dynamically allocated array for subject marks. |
+| **Q9** | **Dynamic Shopping Cart** | Runtime product collection management. |
+| **Q10**| **Dynamic Salary Analysis** | Heap array member allocation for monthly earnings analysis. |
 
 </details>
 
@@ -118,16 +119,16 @@ B125136/
 
 | # | Problem Title | Focus Area / Description |
 | :---: | :--- | :--- |
-| **Q1** | **Personal Diary** | Friend function accessing private encapsulation[cite: 5]. |
-| **Q2** | **Mobile Phone Settings** | Non-member friend function evaluating battery status thresholds[cite: 5]. |
-| **Q3** | **Parking Slot** | Status checking via friend functions[cite: 5]. |
-| **Q4** | **Music Playlist** | Binary object comparison (`compareSongs`) via friend function[cite: 5]. |
-| **Q5** | **Food Order** | Cross-boundary computation via friend functions[cite: 5]. |
-| **Q6** | **Smart Door Lock** | `SecuritySystem` declared as a friend class of `Door`[cite: 5]. |
-| **Q7** | **Game Player Status** | `GameManager` friend class monitoring player health/score[cite: 5]. |
-| **Q8** | **Train Seat Status** | `TicketChecker` friend class inspecting `TrainSeat` records[cite: 5]. |
-| **Q9** | **Online Exam Result** | `Result` friend class accessing private exam marks[cite: 5]. |
-| **Q10**| **Smart Home Device** | `HomeController` friend class altering `SmartDevice` power state[cite: 5]. |
+| **Q1** | **Personal Diary** | Friend function accessing private encapsulation. |
+| **Q2** | **Mobile Phone Settings** | Non-member friend function evaluating battery status thresholds. |
+| **Q3** | **Parking Slot** | Status checking via friend function. |
+| **Q4** | **Music Playlist** | Binary object comparison (`compareSongs`) via friend function. |
+| **Q5** | **Food Order** | Cross-boundary computation via friend function. |
+| **Q6** | **Smart Door Lock** | `SecuritySystem` declared as a friend class of `Door`. |
+| **Q7** | **Game Player Status** | `GameManager` friend class monitoring player health/score. |
+| **Q8** | **Train Seat Status** | `TicketChecker` friend class inspecting `TrainSeat` records. |
+| **Q9** | **Online Exam Result** | `Result` friend class accessing private exam marks. |
+| **Q10**| **Smart Home Device** | `HomeController` friend class altering `SmartDevice` power state. |
 
 </details>
 
@@ -138,16 +139,16 @@ B125136/
 
 | # | Problem Title | Focus Area / Description |
 | :---: | :--- | :--- |
-| **Q1** | **Number Calculator** | Overloaded functions differing by parameter count and types[cite: 2]. |
-| **Q2** | **Value Comparison** | Max value evaluation for integers, floats, and triples[cite: 2]. |
-| **Q3** | **Array Total** | Summation overloaded for int arrays, float arrays, and sub-arrays[cite: 2]. |
-| **Q4** | **Element Search** | Polymorphic search across primitive types and bounded ranges[cite: 2]. |
-| **Q5** | **Modify a Value** | Distinguishing pass-by-value vs pass-by-pointer overloading[cite: 2]. |
-| **Q6** | **Display Data** | Generic-style polymorphic print function for scalars and arrays[cite: 2]. |
-| **Q7** | **Compare Data Sets** | Overloaded logic comparing scalars vs array equality[cite: 2]. |
-| **Q8** | **Counting Operation** | Overloaded counting (digits vs elements vs character frequency)[cite: 2]. |
-| **Q9** | **Maximum Value Finder** | Resolving overloads between variables, raw pointers, and sized arrays[cite: 2]. |
-| **Q10**| **Overloaded Processor** | Multi-type polymorphic processing pipeline[cite: 2]. |
+| **Q1** | **Number Calculator** | Overloaded functions differing by parameter count and types |
+| **Q2** | **Value Comparison** | Max value evaluation for integers, floats, and triples |
+| **Q3** | **Array Total** | Summation overloaded for int arrays, float arrays, and sub-arrays |
+| **Q4** | **Element Search** | Polymorphic search across primitive types and bounded ranges |
+| **Q5** | **Modify a Value** | Distinguishing pass-by-value vs pass-by-pointer overloading |
+| **Q6** | **Display Data** | Generic-style polymorphic print function for scalars and arrays |
+| **Q7** | **Compare Data Sets** | Overloaded logic comparing scalars vs array equality |
+| **Q8** | **Counting Operation** | Overloaded counting (digits vs elements vs character frequency). |
+| **Q9** | **Maximum Value Finder** | Resolving overloads between variables, raw pointers, and sized arrays |
+| **Q10**| **Overloaded Processor** | Multi-type polymorphic processing pipeline |
 
 </details>
 
@@ -159,34 +160,53 @@ B125136/
 ### Part 1: Operator Overloading
 | # | Problem Title | Overloaded Operator / Task |
 | :---: | :--- | :--- |
-| **Q1** | **Distance Addition** | Overloaded `+` operator for `Distance` object summation[cite: 1]. |
-| **Q2** | **Complex Subtraction** | Overloaded `-` operator for complex numbers ($C_1 - C_2$)[cite: 1]. |
-| **Q3** | **Student Marks Comparison**| Overloaded `>` returning `bool` for mark comparison[cite: 1]. |
-| **Q4** | **Negative Value Converter** | Unary `-` operator overload for value negation[cite: 1]. |
-| **Q5** | **Time Addition** | Overloaded `+` operator with minute-to-hour rollover[cite: 1]. |
-| **Q6** | **Counter Increment** | Distinguishing prefix (`++c`) and postfix (`c++`) signatures[cite: 1]. |
-| **Q7** | **Date Equality Checker** | Overloaded `==` operator for structural date matching[cite: 1]. |
-| **Q8** | **Inventory Combination** | Overloaded `+` combining quantities for identical items[cite: 1]. |
-| **Q9** | **Temperature Comparison**| Overloaded `<` and `>` operators returning boolean flags[cite: 1]. |
-| **Q10**| **Shopping Cart Calculator**| Overloaded `+` (combination) & `>` (total value comparison)[cite: 1]. |
+| **Q1** | **Distance Addition** | Overloaded `+` operator for `Distance` object summation |
+| **Q2** | **Complex Subtraction** | Overloaded `-` operator for complex numbers ($C_1 - C_2$) |
+| **Q3** | **Student Marks Comparison**| Overloaded `>` returning `bool` for mark comparison |
+| **Q4** | **Negative Value Converter** | Unary `-` operator overload for value negatio. |
+| **Q5** | **Time Addition** | Overloaded `+` operator with minute-to-hour rollover |
+| **Q6** | **Counter Increment** | Distinguishing prefix (`++c`) and postfix (`c++`) signatures |
+| **Q7** | **Date Equality Checker** | Overloaded `==` operator for structural date matching |
+| **Q8** | **Inventory Combination** | Overloaded `+` combining quantities for identical items |
+| **Q9** | **Temperature Comparison**| Overloaded `<` and `>` operators returning boolean flags |
+| **Q10**| **Shopping Cart Calculator**| Overloaded `+` (combination) & `>` (total value comparison). |
 
 ### Part 2: Pointer Arithmetic & Traversal (Set B)
 | # | Problem Title | Pointer Paradigm Applied |
 | :---: | :--- | :--- |
-| **Q1-Q5**| **State & Array Pointer Manipulations** | Dereferencing, pointer status update, array traversal without index notation[cite: 7]. |
-| **Q6-Q10**| **Dynamic Traversal & String Analysis** | Char pointer iteration (`'\0'`), pointer functions, dynamic table search[cite: 7]. |
+| **Q1-Q5**| **State & Array Pointer Manipulations** | Dereferencing, pointer status update, array traversal without index notation |
+| **Q6-Q10**| **Dynamic Traversal & String Analysis** | Char pointer iteration (`'\0'`), pointer functions, dynamic table search |
 
 </details>
 
+<details>
+<summary><b>📂 Lab 7: Inheritance [10 Problems]</b></summary>
+
+<br>
+
+| # | Problem Title | Focus Area / Description |
+| :---: | :--- | :--- |
+| **Q1** | **Employee Salary** | Multilevel inheritance structure computing final salary with layered bonuses. |
+| **Q2** | **Student Result** | Function overriding for calculating regular vs. scholarship marks within derived classes. |
+| **Q3** | **Vehicle Rental** | Multilevel inheritance calculating total rental cost including conditional luxury charges. |
+| **Q4** | **Banking System** | Hierarchical inheritance managing savings interest rates and current account minimums. |
+| **Q5** | **Student Performance** | Multiple inheritance combining distinct academic and sports bases for a total average. |
+| **Q6** | **Resolving Ambiguity** | Utilizing the scope resolution operator (`::`) to handle multiple inheritance function conflicts. |
+| **Q7** | **University Personnel** | Hybrid inheritance structure utilizing virtual base classes to prevent duplicate inheritance. |
+| **Q8** | **Hospital System** | Restricting and accessing protected base class patient information from a derived class. |
+| **Q9** | **Constructor Execution** | Demonstrating the base-to-derived execution sequence of constructors during inheritance. |
+| **Q10**| **Diamond Problem** | Virtual inheritance application solving the diamond inheritance problem by isolating a single base copy. |
+
+</details>
 ---
 
 ## 💻 Key OOP Paradigms Covered
 
-- **Encapsulation & Abstraction**: Strict private visibility, public interfaces, accessor/mutator methods[cite: 4, 5].
-- **Memory Safety & Resource Management**: RAII principles, heap allocation via `new`/`delete`, avoidance of dangling pointers[cite: 3, 7].
+- **Encapsulation & Abstraction**: Strict private visibility, public interfaces, accessor/mutator methods.
+- **Memory Safety & Resource Management**: RAII principles, heap allocation via `new`/`delete`, avoidance of dangling pointers.
 - **Polymorphism**:
-  - *Compile-Time*: Function Overloading[cite: 2], Operator Overloading (Binary, Unary, Comparison)[cite: 1].
-- **Friend Access Control**: Fine-grained access privileges via `friend` functions & classes without breaking abstraction boundaries[cite: 5].
+  - *Compile-Time*: Function Overloading[cite: 2], Operator Overloading (Binary, Unary, Comparison).
+- **Friend Access Control**: Fine-grained access privileges via `friend` functions & classes without breaking abstraction boundaries.
 
 ---
 
